@@ -11,6 +11,7 @@ public class Lab0Main {
         g.addMember(p1);
         g.addMember(p2);
         g.addMember(p3);
+        g.addMember(p3);
         System.out.println(g.toString());
 
         g.deleteMember(p);
