@@ -1,13 +1,12 @@
 package com.pa.proj2020.adts.graph;
 
-import javax.jws.soap.SOAPBinding;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
 public class ReadFiles {
 
-    public static Map<Integer,String> readUser(String file){
+    public static Map<Integer,String> readNames(String file){
         Map<Integer,String> map = new HashMap<>();
         try{
             File f = new File(file);
@@ -22,7 +21,7 @@ public class ReadFiles {
         return map;
     }
 
-    public static Map<Integer,List<Integer>> readRelationship(String file){
+    public static Map<Integer,List<Integer>> readRelations(String file){
         Map<Integer,List<Integer>> map = new HashMap<>();
         try{
             File f = new File(file);

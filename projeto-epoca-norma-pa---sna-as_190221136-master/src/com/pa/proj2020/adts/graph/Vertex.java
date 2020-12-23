@@ -40,4 +40,5 @@ public interface Vertex<V> {
      * @return      stored element
      */
     public V element();
+
 }

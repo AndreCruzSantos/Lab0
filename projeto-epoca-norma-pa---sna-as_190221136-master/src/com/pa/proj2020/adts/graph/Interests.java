@@ -1,4 +1,4 @@
-package com.pa.proj2020.adts;
+package com.pa.proj2020.adts.graph;
 
 public class Interests {
     private int id;
